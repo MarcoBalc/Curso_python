@@ -1,11 +1,13 @@
-'''Escribe un programa que lea un número entero y determine si es
-positivo, negativo o cero.'''
-numero =int(input("Ingresa un numero entero: "))
-
-if numero>0:
- print("el numero",numero,"es positivo")
-elif numero<0:
- print("el numero",numero,"es negativo")
+'''
+Escribe un programa que lea un número entero y determine si es
+positivo, negativo o cero.
+'''
+numero = int(input("Ingrese el primer número: "))
+if numero > 0:
+    print("El numero",numero,"es positivo")
+elif numero < 0:
+    print("El numero",numero,"es negativo")
+elif numero == 0:
+    print("El número es cero")
 else:
-     "ingresar un numero invalido"
- 
+    "Ingreso un número inválido"
